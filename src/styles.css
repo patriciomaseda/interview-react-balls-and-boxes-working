@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ball {
+  background: tomato;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  border: 2px solid black;
+  cursor: pointer;
+  height: 150px;
+  padding: 5px;
+  width: 150px;
+}
+
+.shadow {
+  opacity: 0.3;
+}
