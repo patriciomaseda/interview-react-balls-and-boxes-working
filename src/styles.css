@@ -1,8 +1,9 @@
 .App {
-  display: flex;
-  justify-content: space-between;
-  font-family: sans-serif;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .ball {
@@ -15,9 +16,8 @@
 .box {
   border: 2px solid black;
   cursor: pointer;
-  height: 150px;
+  height: 180px;
   padding: 5px;
-  width: 150px;
 }
 
 .shadow {
