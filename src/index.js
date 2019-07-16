@@ -37,7 +37,7 @@ class App extends React.Component {
     return (
       <div className="App">
         {this.state.boxes.map((b, p) => (
-          <Box onClick={this.handleClick(p)}>
+          <Box onClick={b !== 1 ? this.handleClick(p) : () => {}}>
             {b ? <Ball /> : null}
             {this.state.old[p] ? <Shadow /> : null}
           </Box>
